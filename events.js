@@ -13,3 +13,10 @@ elem.onclick = ()=>{
     }
     
 };
+const func=(obj)=>{
+    
+    console.log(obj.type,obj.clientX,obj.clientY)
+}
+document.getElementsByTagName("div")[1].addEventListener('click',func);
+document.addEventListener('click',func)
+//document.getElementsByTagName("div")[1].removeEventListener('click',func)

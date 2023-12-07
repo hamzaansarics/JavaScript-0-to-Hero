@@ -7,6 +7,12 @@
 .yellow{
     background-color: yellow;
 }
-.txt-purple{
+.txt-white{
     color:white;
+}
+.body_night{
+    background-color: black;
+}
+.body_day{
+    background-color: white;
 }
