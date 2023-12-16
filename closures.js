@@ -3,6 +3,13 @@
 //that particular function they will they will also return the reference of variables whis funciton are using
 //if we change its refference value outside the function they value will aslo change as given below example
 
+function nice()
+{
+    console.log(hi)
+}
+let hi="This is the simplest example of closures"
+nice();
+
 function closure()
 {
     let message = "Data is dumped into database";
@@ -33,10 +40,3 @@ let a=()=>{
 }
 a();
 
-
-function nice()
-{
-    console.log(hi)
-}
-let hi="This is the simplest example of closures"
-nice();
